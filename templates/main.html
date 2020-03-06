@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+<script src = "/static/js/tictactoe.js"> </script>
+
+<style>
+ .green {
+  color: green;
+ }
+ #t21 {
+  color: red;
+ }
+ .high {
+  height: 300px;
+ }
+
+</style>
+</head>
+<body>
+<h1>TicTacToe</h1>
+
+<table border=1 id="table1">
+<tr>
+	<td> <img id=i11 src="/media/images/N.jpg" onclick="setValue('#i11')"> </td> 
+	<td> <img id=i12 src="/media/images/N.jpg" onclick="setValue('#i12')"> </td> 
+	<td> <img id=i13 src="/media/images/N.jpg" onclick="setValue('#i13')"> </td> 
+</tr>
+<tr>
+	<td> <img id=i21 src="/media/images/N.jpg" onclick="setValue('#i21')"> </td> 
+	<td> <img id=i22 src="/media/images/N.jpg" onclick="setValue('#i22')"> </td> 
+	<td> <img id=i23 src="/media/images/N.jpg" onclick="setValue('#i23')"> </td> 
+</tr>
+<tr>
+	<td> <img id=i31 src="/media/images/N.jpg" onclick="setValue('#i31')"> </td> 
+	<td> <img id=i32 src="/media/images/N.jpg" onclick="setValue('#i32')"> </td> 
+	<td> <img id=i33 src="/media/images/N.jpg" onclick="setValue('#i33')"> </td> 
+</tr>
+</table>
+
+<p><input type="button" value="Again" onclick="doInit()"></p>
+
+
+</body>
+</html>
